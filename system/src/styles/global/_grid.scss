@@ -1,0 +1,141 @@
+@charset "UTF-8";
+.m-list{
+  .model-ul{
+    margin: 10px 0;
+    height: calc(100vh - 196px - 32px - 20px);
+    min-height: $mine-h - 196px - 32px - 20px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: auto;
+    &.is_edit{
+      height: calc(100vh - 196px - 32px - 20px - 55px);
+      min-height: $mine-h - 196px - 32px - 20px - 55px;
+    }
+    /*滚动条样式*/
+    &::-webkit-scrollbar{
+      width: 4px;
+      /*height: 4px;*/
+    }
+    &::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 5px #333;
+      background: #333;
+    }
+    &::-webkit-scrollbar-track{
+      -webkit-box-shadow: inset 0 0 5px transparent;
+      border-radius: 0;
+      background: transparent;
+    }
+  }
+  .model-li{
+    margin: 0 0 10px 10px;
+    border: 1px solid #eee;
+    width: 226px;height: 286px;
+    padding: 4px;
+    position: relative;
+    .li-img{
+      width: 100%; height: 188px;
+      @extend %btn_base;
+    }
+    .h5{
+      font-size: 16px;
+      @include ellipsis(100%, 2);
+      height: 2.8em;
+      @extend %btn_base;
+      text-align: center;
+    }
+    .ft{
+      margin-top: 10px;
+      display: flex;align-items: center;justify-content: space-between;
+      font-size: 14px;
+    }
+    .delet-btn{
+      padding: 5px;
+      font-size: 16px;
+    }
+    .label-box{
+      position: absolute;
+      left: 6px;top: 4px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 20px;
+      &.active{
+        color: rgba(255, 0, 0, 0.8);
+      }
+    }
+    .img-box{
+      position: relative;
+      .box-base{
+        width: 100%; height: 188px;
+        position: absolute;left: 0;top: 0;
+        @extend %btn_base;
+      }
+    }
+  }
+  .flex{
+    display: flex;align-items: center;
+  }
+  .tools{
+    display: flex;align-items: center;justify-content: space-between;
+    .u-icon + .u-icon{
+      margin-right: 0px;
+      margin-left: 20px;
+    }
+  }
+  .u-icon{
+    //margin-left: 40px;
+    padding: 11px 20px;
+    display: flex;align-items: center;
+    margin-right: 20px;
+    i{
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+}
+/*地图*/
+.map-marker{
+  .map-marker-hd{
+    display: flex;
+    align-items: flex-end;
+    width: 230px;height: 50px;
+    padding-left: 6px;
+    .map-name{
+      flex: 1;
+      text-align: center;
+      padding: 5px 0;
+    }
+  }
+  .map-label-icon-box{
+    text-align: center;
+  }
+  .map-label-icon{
+    //padding:0 1px 10px 0;
+  }
+}
+.map-label-img{
+  width: 60px;height: 50px;
+}
+.map-label-icon{
+  width: 50px;height: 50px;
+  animation: myfirst 1s infinite;
+}
+@keyframes myfirst{
+  0%{
+    transform: translate(0px, 0px);
+  }
+  50%{
+    transform: translate(0px, -10px);
+  }
+  100%{
+    transform: translate(0px, 0px);
+  }
+}
+//地图的默认信息盒子
+.BMap_cpyCtrl.BMap_noprint.anchorBL{
+  display: none !important;
+}
+.anchorBL{
+  display: none !important;
+}

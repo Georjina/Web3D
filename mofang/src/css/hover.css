@@ -1,0 +1,42 @@
+/*left-menu*/
+.antFill-home:hover img,.antFill-home:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/antFill-home Copy@1x.png");
+}
+.antFill-bulb:hover img,.antFill-bulb:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/antFill-bulb Copy@1x.png");
+}
+.antFill-youtube:hover img,.antFill-youtube:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/antFill-youtube Copy@1x.png");
+}
+.fas-fa-user:hover img,.fas-fa-user:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/fas fa-user Copy@1x.png");
+}
+.antFill-appstore:hover img,.antFill-appstore:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/antFill-appstore Copy@1x.png");
+}
+
+/*header-menu*/
+.md-note_add:hover img,.md-note_add:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-note_add Copy@1x.png");
+}
+.md-save:hover img,.md-savea:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-save Copy@1x.png");
+}
+.md-reply-undo:hover img,.md-reply-undo:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-reply-undo@1x.png");
+}
+.md-reply-redo:hover img,.md-reply-redo:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-reply-redo@1x.png");
+}
+.md-delete_forever:hover img,.md-delete_forever:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-delete_forever Copy@1x.png");
+}
+.md-3d_rotation:hover img,.md-3d_rotation:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-3d_rotation Copy@1x.png");
+}
+.md-extension:hover img,.md-extension:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-extension Copy@1x.png");
+}
+.md-build:hover img,.md-build:focus img{
+    content: url("../../views/modules/Mofang/images/designer-blue/md-build Copy@1x.png");
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "init",
+    "cameraProperty": {
+      "position": {
+        "x": 7.54,
+        "y": 103.53,
+        "z": -165.54
+      },
+      "rotation": {
+        "x": -2.62,
+        "y": 0.03,
+        "z": 3.12
+      }
+    }
+  },
+  {
+    "name": "dimian",
+    "sceneModel": {
+      "name": "dimian",
+      "url": "dimian/CK-dimian01-JZ.FBX",
+
+      "position": {
+        "x": 0,
+        "y": 0.01,
+        "z": 0
+      }
+    },
+    "cameraProperty": {
+      "position": {
+        "x": 7.54,
+        "y": 103.53,
+        "z": -165.54
+      },
+      "rotation": {
+        "x": -2.62,
+        "y": 0.03,
+        "z": 3.12
+      }
+    }
+  }
+]

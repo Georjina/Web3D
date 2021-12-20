@@ -1,0 +1,25 @@
+@charset "UTF-8";
+// 单行省略号
+%ell{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+%ell-n{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+@mixin ellipsis($width:100%,$line:1){
+  width: $width;
+  @if ($line==1){
+    //单行超出省略号
+    @extend %ell;
+  } @else{
+    @extend %ell-n;
+    -webkit-line-clamp: $line;
+  }
+}
+//按扭样式
+%btn_base{
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}

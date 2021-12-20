@@ -1,0 +1,447 @@
+[
+  {
+    "name": "bingxiang0001",
+    "url": "bangonglou0102/CK-bingxiang0001-CJBZ.FBX"
+  },
+  {
+    "name": "dengzi0001",
+    "url": "bangonglou0102/CK-dengzi0001-CJBZ.FBX"
+  },
+  {
+    "name": "dengzi0002",
+    "url": "bangonglou0102/CK-dengzi0002-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0001",
+    "url": "bangonglou0102/CK-guizi0001-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0002",
+    "url": "bangonglou0102/CK-guizi0002-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0003",
+    "url": "bangonglou0102/CK-guizi0003-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0004",
+    "url": "bangonglou0102/CK-guizi0004-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0005",
+    "url": "bangonglou0102/CK-guizi0005-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0006",
+    "url": "bangonglou0102/CK-guizi0006-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0007",
+    "url": "bangonglou0102/CK-guizi0007-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0008",
+    "url": "bangonglou0102/CK-guizi0008-CJBZ.FBX"
+  },
+  {
+    "name": "guizi0009",
+    "url": "bangonglou0102/CK-guizi0009-CJBZ.FBX"
+  },
+  {
+    "name": "jianpanshubiao0001",
+    "url": "bangonglou0102/CK-jianpanshubiao0001-CJBZ.FBX"
+  },
+  {
+    "name": "jiaohuanjixiang0001",
+    "url": "bangonglou0102/CK-jiaohuanjixiang0001-CJBZ.FBX"
+  },
+  {
+    "name": "kongtiao0001",
+    "url": "bangonglou0102/CK-kongtiao0001-CJBZ.FBX"
+  },
+  {
+    "name": "shafa0001",
+    "url": "bangonglou0102/CK-shafa0001-CJBZ.FBX"
+  },
+  {
+    "name": "shafa0002",
+    "url": "bangonglou0102/CK-shafa0002-CJBZ.FBX"
+  },
+  {
+    "name": "shafa0003",
+    "url": "bangonglou0102/CK-shafa0003-CJBZ.FBX"
+  },
+  {
+    "name": "shafa0004",
+    "url": "bangonglou0102/CK-shafa0004-CJBZ.FBX"
+  },
+  {
+    "name": "shujia0001",
+    "url": "bangonglou0102/CK-shujia0001-CJBZ.FBX"
+  },
+  {
+    "name": "shujia0002",
+    "url": "bangonglou0102/CK-shujia0002-CJBZ.FBX"
+  },
+  {
+    "name": "shujia0003",
+    "url": "bangonglou0102/CK-shujia0003-CJBZ.FBX"
+  },
+  {
+    "name": "xianshiping0001",
+    "url": "bangonglou0102/CK-xianshiping0001-CJBZ.FBX"
+  },
+  {
+    "name": "xianshiping0002",
+    "url": "bangonglou0102/CK-xianshiping0002-CJBZ.FBX"
+  },
+  {
+    "name": "xianshiping0003",
+    "url": "bangonglou0102/CK-xianshiping0003-CJBZ.FBX"
+  },
+  {
+    "name": "yanjiangtai0001",
+    "url": "bangonglou0102/CK-yanjiangtai0001-CJBZ.FBX"
+  },
+  {
+    "name": "yaoshigui0001",
+    "url": "bangonglou0102/CK-yaoshigui0001-CJBZ.FBX"
+  },
+  {
+    "name": "yaoshiguimimasuo0001",
+    "url": "bangonglou0102/CK-yaoshiguimimasuo0001-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0001",
+    "url": "bangonglou0102/CK-zhuozi0001-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0002",
+    "url": "bangonglou0102/CK-zhuozi0002-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0003",
+    "url": "bangonglou0102/CK-zhuozi0003-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0004",
+    "url": "bangonglou0102/CK-zhuozi0004-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0005",
+    "url": "bangonglou0102/CK-zhuozi0005-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0006",
+    "url": "bangonglou0102/CK-zhuozi0006-CJBZ.FBX"
+  },
+  {
+    "name": "zhuozi0007",
+    "url": "bangonglou0102/CK-zhuozi0007-CJBZ.FBX"
+  },
+  {
+    "name": "cailanjishebei",
+    "url": "caifengji/cailanjishebei.FBX",
+    "rotation": {
+      "x": 0,
+      "y": -1.57,
+      "z": 0
+    }
+  },
+  {
+    "name": "AGV0001",
+    "url": "cangku01/CK-AGV0001-ZDH.FBX"
+  },
+  {
+    "name": "huojia0001",
+    "url": "cangku01/CK-huojia0001-ZDH.FBX"
+  },
+  {
+    "name": "huojia0002",
+    "url": "cangku01/CK-huojia0002-ZDH.FBX"
+  },
+  {
+    "name": "huowu0001",
+    "url": "cangku01/CK-huowu0001-ZDH.FBX"
+  },
+  {
+    "name": "jingjuhuojia0001",
+    "url": "cangku03/CK-jingjuhuojia0001-CJBZ.FBX"
+  },
+  {
+    "name": "jiqirenfangzi0001",
+    "url": "cangku03/CK-jiqirenfangzi0001-CJBZ.FBX"
+  },
+  {
+    "name": "peidiangui0001",
+    "url": "cangku03/CK-peidiangui0001-CJBZ.FBX"
+  },
+  {
+    "name": "dianlan0001",
+    "url": "dianlanhuowu/CK-dianlan0001-HW.FBX"
+  },
+  {
+    "name": "dianlan0002",
+    "url": "dianlanhuowu/CK-dianlan0002-HW.FBX"
+  },
+  {
+    "name": "dianlan0003",
+    "url": "dianlanhuowu/CK-dianlan0003-HW.FBX"
+  },
+  {
+    "name": "haobangonglou01",
+    "url": "jianzhu/CK-1haobangonglou01-JZ.FBX",
+    "relativePosition": {
+      "x": -22.917994018479575,
+      "y": 3.0466978188185436,
+      "z": -2.357625032372752
+    },
+    "relativeRotation": {
+      "x": -2.5038096131037384,
+      "y": -1.0095842777766906,
+      "z": -2.581250564570944
+    }
+  },
+  {
+    "name": "haocangku01",
+    "url": "jianzhu/CK-1haocangku01-JZ.FBX",
+    "relativePosition": {
+      "x": -21.19682898090088,
+      "y": 7.318075086913929,
+      "z": 3.6859005920810333
+    },
+    "relativeRotation": {
+      "x": -1.6704072272789485,
+      "y": -1.2001881395711,
+      "z": -1.6776094670030883
+    }
+  },
+  {
+    "name": "haobangonglou02",
+    "url": "jianzhu/CK-2haobangonglou01-JZ.FBX",
+    "relativePosition":{
+      "x": 9.803364765292073,
+      "y": 1.3765648555621637,
+      "z": 1.1311903944745385
+    },
+    "relativeRotation": {
+      "x": -1.3427786673425444,
+      "y": 1.3553844269365651,
+      "z": 1.337575529955546
+    }
+  },
+  {
+    "name": "haocangku03",
+    "url": "jianzhu/CK-3haocangku01-JZ.FBX",
+    "relativePosition": {
+      "x": 64.74666771760461,
+      "y": 2.9679381895932844,
+      "z": 1.2580682835930475
+    },
+    "relativeRotation": {
+      "x": -1.1698693868179062,
+      "y": 1.5210500015246242,
+      "z": 1.1694244038463706
+    }
+  },
+  {
+    "name": "haocangku0506",
+    "url": "jianzhu/CK-5he6haocangku01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": -1.6,
+      "z": 0
+    },
+    "relativePosition": {
+      "x": -1.9693361203650106,
+      "y": 3.1144982796021092,
+      "z": -11.499433804140253
+    },
+    "relativeRotation": {
+      "x": -3.1312646239539204,
+      "y": 1.688241808475292,
+      "z": 3.1406824397442343
+    }
+  },
+  {
+    "name": "haocangku0809",
+    "url": "jianzhu/CK-8he9haocangku01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": -1.4,
+      "z": 0
+    },
+    "relativePosition":{
+      "x": 2.7048098772309856,
+      "y": 4.0767844322874565,
+      "z": 13.80541342942879
+    },
+    "relativeRotation": {
+      "x": -0.28714236420863504,
+      "y": 1.585736433112651,
+      "z": 0.054479804098240825
+    }
+  },
+  {
+    "name": "baoanting01",
+    "url": "jianzhu/CK-baoanting01-JZ.FBX",
+    "relativePosition":{
+      "x": 2.750344739080184,
+      "y": 2.82191727498219,
+      "z": 2.025537243767694
+    },
+    "relativeRotation": {
+      "x": -0.49677752201263903,
+      "y": 0.7315181688322454,
+      "z": 0.3474487632405555
+    }
+  },
+  {
+    "name": "cailanjifang01",
+    "url": "jianzhu/CK-cailanjifang01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": -1.4,
+      "z": 0
+    },
+    "relativePosition":{
+      "x": -2.459168276256733,
+      "y": 1.6045154362393828,
+      "z": -8.738067136214319
+    },
+    "relativeRotation":{
+      "x": -2.9503285097255745,
+      "y": 1.3731914418589888,
+      "z": -3.1364023524981133
+    }
+  },
+  {
+    "name": "fantang01",
+    "url": "jianzhu/CK-fantang01-JZ.FBX",
+    "relativePosition": {
+      "x": -3.779520437337567,
+      "y": 1.2688644669804792,
+      "z": -4.011513600061974
+    },
+    "relativeRotation": {
+      "x": -3.089137149214865,
+      "y": 0.4712111592518906,
+      "z": 3.1177622962203393
+    }
+  },
+  {
+    "name": "gongjufang01",
+    "url": "jianzhu/CK-gongjufang01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0
+    },
+    "position": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "relativePosition": {
+      "x": -5.62022501171055,
+      "y": 1.458320103726029,
+      "z": 1.187458054775572
+    },
+    "relativeRotation": {
+      "x": -1.2772667730646996,
+      "y": -1.5070221884141222,
+      "z": -1.2673744073134627
+    }
+  },
+  {
+    "name": "gongjufang02",
+    "url": "jianzhu/CK-gongjufang02-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": -0.8,
+      "z": 0
+    },
+    "relativePosition": {
+      "x": 2.575689117963524,
+      "y": 3.641647694535631,
+      "z": -8.098895751279755
+    },
+    "relativeRotation": {
+      "x": -2.8248891780715946,
+      "y": 1.1094386840765265,
+      "z": 3.042118922279858
+    }
+  },
+  {
+    "name": "liangting01",
+    "url": "jianzhu/CK-liangting01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": 1.57,
+      "z": 0
+    },  "relativePosition": {
+    "x": 0.2758070681073246,
+    "y": 1.7740472515018997,
+    "z": -4.948259518778292
+  },
+    "relativeRotation": {
+      "x": -2.863352621599391,
+      "y": -1.5150724410442964,
+      "z": 3.1259117815489423
+    }
+  },
+  {
+    "name": "xiaofangshuibengfang01",
+    "url": "jianzhu/CK-xiaofangshuibengfang01-JZ.FBX",
+    "rotation": {
+      "x": 0,
+      "y": 0.8,
+      "z": 0
+    },
+    "relativePosition":{
+      "x": 2.3785310226350163,
+      "y": 3.3761583864697386,
+      "z": -7.338738163438904
+    },
+    "relativeRotation":{
+      "x": -2.7104158067066857,
+      "y": -0.5136497920141455,
+      "z": 3.012375283817348
+    }
+  },
+  {
+    "name": "xiaofangshuichi01",
+    "url": "jianzhu/CK-xiaofangshuichi01-JZ.FBX",
+    "relativePosition": {
+      "x": -8.535677255035813,
+      "y": 3.64641837756137,
+      "z": 7.494432468233825
+    },
+    "relativeRotation":{
+      "x": -0.4528300729248956,
+      "y": -0.7973262382334665,
+      "z": -0.3350009825012207
+    }
+  },
+  {
+    "name": "longmendiao0001",
+    "url": "longmendiao/CK-longmendiao0001-SB.FBX",
+    "rotation": {
+      "x": 0,
+      "y": 0.15,
+      "z": 0
+    }
+  },
+  {
+    "name": "shexiangtou0001",
+    "url": "shexiangtou/CK-shexiangtou0001-SB.FBX"
+  },
+  {
+    "name": "shexiangtou0002",
+    "url": "shexiangtou/CK-shexiangtou0002-SB.FBX"
+  },
+  {
+    "name": "shexiangtou0003",
+    "url": "shexiangtou/CK-shexiangtou0003-SB.FBX"
+  }
+]

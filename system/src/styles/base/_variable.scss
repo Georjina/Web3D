@@ -1,0 +1,12 @@
+@charset "UTF-8";
+$primary-color: #2d8cf0; // 主色
+$link-color: #2d8cf0; // 链接颜色
+$link-hover-color: #57a3f3; // 链接hover色  // mix(#fff, $link-color, 20%);
+$link-active-color: #2b85e4; // 链接active色  // mix(#000, $link-color, 5%);
+$font-color: #333; // 基础文本色
+$mine-w:1200px;
+$mine-h:700px;
+// CSS Module 导出给js用
+:export{
+  primaryColor: $primary-color;
+}

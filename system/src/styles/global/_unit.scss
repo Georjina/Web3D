@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'UnidreamLED';
+  src: url('../../assets/UnidreamLED.ttf');
+}
+%family_led{
+  font-family: 'UnidreamLED';
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.u-num{
+  font-family: 'UnidreamLED';
+  letter-spacing: 2px;
+  line-height: 1;
+}

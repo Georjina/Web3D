@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import "~normalize.css";
+*{box-sizing: border-box;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  &:before, &:after{box-sizing: border-box;}
+}
+body{
+  font-size: 12px;line-height: 1.5;
+  color: $font-color;background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: $mine-w;min-height: $mine-h;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+  margin: 0;
+  padding: 0;
+}
+button, input, select, textarea{font-family: inherit;font-size: inherit;line-height: inherit;}
+input::-ms-clear, input::-ms-reveal{display: none;}
+input,select{
+  outline: none;
+}
+a{
+  color: $link-color;background: transparent;
+  text-decoration: none;outline: none;
+  cursor: pointer;transition: color 0.2s ease;
+  &:hover{color: $link-hover-color;}
+  &:active{color: $link-active-color;}
+  &:active, &:hover{outline: 0;text-decoration: none;}
+  &[disabled]{color: #ddd;cursor: not-allowed;pointer-events: none;}
+}
+code,
+kbd,
+pre,
+ul,dl,ol{
+  list-style: none;
+}

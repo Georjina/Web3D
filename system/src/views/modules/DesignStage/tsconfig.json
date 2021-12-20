@@ -1,0 +1,580 @@
+{
+  "changjin": [
+    {
+      "img": "/designer/building1.png", "name": "场景1", "children": "",
+      "model": {
+        "name": "dimian",
+        "sceneModel": {
+          "name": "dimian",
+          "position": {
+            "x": 0,
+            "y": 10,
+            "z": 100
+          },
+          "url": "/Model/dimian/CK-dimian01-JZ.FBX"
+        },
+        "cameraProperty": {
+          "fov": 50,
+          "near": 1,
+          "far": 5000,
+          "position": {
+            "x": 7.54,
+            "y": 200.53,
+            "z": 100
+          },
+          "rotation": {
+            "x": -2.62,
+            "y": 50,
+            "z": 50
+          }
+        }
+      },
+      "is_scene": true
+    },
+    {
+      "img": "/designer/building1.png",
+      "name": "地图",
+      "children": "",
+      "model": {
+        "name": "map",
+        "url": "/Model/dimian/MGGDDem.fbx"
+      }
+    },
+    {
+      "img": "/designer/building2.png",
+      "name": "场景2",
+      "children": "",
+      "model": "",
+      "is_scene": true
+    }
+  ],
+  "tongyong": [
+    {"img": "/Model/jianzhu/baoanting01.png", "name": "建筑", "model": "", "children": "jianzhu"},
+    {"img": "/Model/cangku01/huojia0001.png", "name": "仓库1", "model": "", "children": "cangku01"},
+    {"img": "/Model/cangku03/jingjuhuojia0001.png", "name": "仓库3", "model": "", "children": "cangku03"},
+    {"img": "/Model/bangonglou0102/zhuozi0002.png", "name": "办公楼1和2", "model": "", "children": "bangonglou0102"},
+    {"img": "/Model/caifengji/cailanjishebei.png", "name": "裁缝机", "model": "", "children": "caifengji"},
+    {"img": "/Model/dianlanhuowu/CK-dianlan0002-HW.png", "name": "电缆货物", "model": "", "children": "dianlanhuowu"},
+    {"img": "/Model/longmendiao/CK-longmendiao0001-SB.png", "name": "龙门吊", "model": "", "children": "longmendiao"},
+    {"img": "/Model/shexiangtou/CK-shexiangtou0002-SB.png", "name": "摄像头", "model": "", "children": "shexiangtou"}
+  ],
+  "jianzhu": [
+    {
+      "id": "haocangku03", "img": "/Model/jianzhu/haocangku03.png", "name": "仓库3",
+      "model": {
+        "name": "haocangku03",
+        "url": "/Model/jianzhu/CK-3haocangku01-JZ.FBX",
+        "relativePosition": {
+          "x": 19.741540741334028,
+          "y": 3.4328317537667723,
+          "z": 4.942147303479636
+        },
+        "relativeRotation": {
+          "x": -1.3427786673425444,
+          "y": 1.3553844269365651,
+          "z": 1.337575529955546
+        }
+      }
+    },
+    {
+      "id": "fantang01", "img": "/Model/jianzhu/fantang01.png", "name": "饭堂1",
+      "model": {
+        "name": "fantang01",
+        "url": "/Model/jianzhu/CK-fantang01-JZ.FBX",
+        "relativePosition": {
+          "x": -3.779520437337567,
+          "y": 1.2688644669804792,
+          "z": -4.011513600061974
+        },
+        "relativeRotation": {
+          "x": -3.089137149214865,
+          "y": 0.4712111592518906,
+          "z": 3.1177622962203393
+        }
+      }
+    },
+    {"id": "haobangonglou02", "img": "/Model/jianzhu/haobangonglou02.png", "name": "办公楼2", "model": {"url": "/Model/jianzhu/CK-2haobangonglou01-JZ.FBX"}},
+    {
+      "id": "liangting01", "img": "/Model/jianzhu/liangting01.png", "name": "凉亭1",
+      "model": {
+        "name": "liangting01",
+        "url": "/Model/jianzhu/CK-liangting01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": 1.57,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "gongjufang02", "img": "/Model/jianzhu/gongjufang02.png", "name": "工具房2",
+      "model": {
+        "name": "gongjufang02",
+        "url": "/Model/jianzhu/CK-gongjufang02-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": -0.8,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "xiaofangshuibengfang01", "img": "/Model/jianzhu/xiaofangshuibengfang01.png", "name": "消防水泵1",
+      "model": {
+        "name": "xiaofangshuibengfang01",
+        "url": "/Model/jianzhu/CK-xiaofangshuibengfang01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": 0.8,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "haocangku01", "img": "/Model/jianzhu/haocangku01.png", "name": "仓库1",
+      "model": {
+        "name": "haocangku01",
+        "url": "/Model/jianzhu/CK-1haocangku01-JZ.FBX",
+        "relativePosition": {
+          "x": -21.19682898090088,
+          "y": 7.318075086913929,
+          "z": 3.6859005920810333
+        },
+        "relativeRotation": {
+          "x": -1.6704072272789485,
+          "y": -1.2001881395711,
+          "z": -1.6776094670030883
+        }
+      }
+    },
+    {
+      "id": "haobangonglou01", "img": "/Model/jianzhu/haobangonglou01.png", "name": "办公楼1",
+      "model": {
+        "name": "haobangonglou02",
+        "url": "/Model/jianzhu/CK-2haobangonglou01-JZ.FBX"
+      }
+    },
+    {
+      "id": "haocangku0809", "img": "/Model/jianzhu/haocangku0809.png", "name": "仓库8和9",
+      "model": {
+        "name": "haocangku0809",
+        "url": "/Model/jianzhu/CK-8he9haocangku01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": -1.4,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "cailanjifang01",
+      "img": "/Model/jianzhu/cailanjifang01.png",
+      "name": "彩兰机房1",
+      "model": {
+        "name": "cailanjifang01",
+        "url": "/Model/jianzhu/CK-cailanjifang01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": -1.4,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "gongjufang01", "img": "/Model/jianzhu/gongjufang01.png", "name": "工具房1",
+      "model": {
+        "name": "gongjufang01",
+        "url": "/Model/jianzhu/CK-gongjufang01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": 0.2,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "haocangku0506", "img": "/Model/jianzhu/haocangku0506.png", "name": "仓库5和6",
+      "model": {
+        "name": "haocangku0506",
+        "url": "/Model/jianzhu/CK-5he6haocangku01-JZ.FBX",
+        "rotation": {
+          "x": 0,
+          "y": -1.6,
+          "z": 0
+        },
+        "relativePosition": {
+          "x": -1.9693361203650106,
+          "y": 3.1144982796021092,
+          "z": -11.499433804140253
+        },
+        "relativeRotation": {
+          "x": -3.1312646239539204,
+          "y": 1.688241808475292,
+          "z": 3.1406824397442343
+        }
+      }
+    },
+    {
+      "id": "baoanting01", "img": "/Model/jianzhu/baoanting01.png", "name": "保安亭1",
+      "model": {
+        "name": "baoanting01",
+        "url": "/Model/jianzhu/CK-baoanting01-JZ.FBX"
+      }
+    },
+    {
+      "id": "xiaofangshuichi01", "img": "/Model/jianzhu/xiaofangshuichi01.png", "name": "消防水池1",
+      "model": {
+        "name": "xiaofangshuichi01",
+        "url": "/Model/jianzhu/CK-xiaofangshuichi01-JZ.FBX"
+      }
+    }
+  ],
+  "cangku01": [
+    {
+      "id": "huojia0001", "img": "/Model/cangku01/huojia0001.png", "name": "货架1",
+      "model": {
+        "name": "huojia0001",
+        "url": "/Model/cangku01/CK-huojia0001-ZDH.FBX"
+      }
+    },
+    {
+      "id": "huojia0002", "img": "/Model/cangku01/huojia0002.png", "name": "货架2",
+      "model": {
+        "name": "huojia0002",
+        "url": "/Model/cangku01/CK-huojia0002-ZDH.FBX"
+      }
+    },
+    {
+      "id": "huowu0001", "img": "/Model/cangku01/huowu0001.png", "name": "货物1",
+      "model": {
+        "name": "huowu0001",
+        "url": "/Model/cangku01/CK-huowu0001-ZDH.FBX"
+      }
+    },
+    {
+      "id": "AGV0001", "img": "/Model/cangku01/AGV0001.png", "name": "AGV1",
+      "model": {
+        "name": "AGV0001",
+        "url": "/Model/cangku01/CK-AGV0001-ZDH.FBX"
+      }
+    }
+  ],
+  "cangku03": [
+    {
+      "id": "jingjuhuojia0001", "img": "/Model/cangku03/jingjuhuojia0001.png", "name": "京剧货架",
+      "model": {
+        "name": "jingjuhuojia0001",
+        "url": "/Model/cangku03/CK-jingjuhuojia0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "jiqirenfangzi0001", "img": "/Model/cangku03/jiqirenfangzi0001.png", "name": "机器人房子",
+      "model": {
+        "name": "jiqirenfangzi0001",
+        "url": "/Model/cangku03/CK-jiqirenfangzi0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "peidiangui0001", "img": "/Model/cangku03/peidiangui0001.png", "name": "配电柜",
+      "model": {
+        "name": "peidiangui0001",
+        "url": "/Model/cangku03/CK-peidiangui0001-CJBZ.FBX"
+      }
+    }
+  ],
+  "bangonglou0102": [
+    {
+      "id": "bingxiang0001", "img": "/Model/bangonglou0102/bingxiang0001.png", "name": "冰箱1",
+      "model": {
+        "name": "bingxiang0001",
+        "url": "/Model/bangonglou0102/CK-bingxiang0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "dengzi0001", "img": "/Model/bangonglou0102/dengzi0001.png", "name": "凳子1",
+      "model": {
+        "name": "dengzi0001",
+        "url": "/Model/bangonglou0102/CK-dengzi0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "dengzi0002", "img": "/Model/bangonglou0102/dengzi0002.png", "name": "凳子2",
+      "model": {
+        "name": "dengzi0002",
+        "url": "/Model/bangonglou0102/CK-dengzi0002-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0001", "img": "/Model/bangonglou0102/guizi0001.png", "name": "柜子1",
+      "model": {
+        "name": "guizi0001",
+        "url": "/Model/bangonglou0102/CK-guizi0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0002", "img": "/Model/bangonglou0102/guizi0002.png", "name": "柜子2",
+      "model": {
+        "name": "guizi0002",
+        "url": "/Model/bangonglou0102/CK-guizi0002-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0003", "img": "/Model/bangonglou0102/guizi0003.png", "name": "柜子3",
+      "model": {
+        "name": "guizi0003",
+        "url": "/Model/bangonglou0102/CK-guizi0003-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0004", "img": "/Model/bangonglou0102/guizi0004.png", "name": "柜子4",
+      "model": {
+        "name": "guizi0004",
+        "url": "/Model/bangonglou0102/CK-guizi0004-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0005", "img": "/Model/bangonglou0102/guizi0005.png", "name": "柜子5",
+      "model": {
+        "name": "guizi0005",
+        "url": "/Model/bangonglou0102/CK-guizi0005-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0006", "img": "/Model/bangonglou0102/guizi0006.png", "name": "柜子6", "model": {
+      "name": "guizi0006",
+      "url": "/Model/bangonglou0102/CK-guizi0006-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "guizi0007",
+      "img": "/Model/bangonglou0102/guizi0007.png",
+      "name": "柜子7",
+      "model": {
+        "name": "guizi0007",
+        "url": "/Model/bangonglou0102/CK-guizi0007-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "guizi0008", "img": "/Model/bangonglou0102/guizi0008.png", "name": "柜子8", "model": {
+      "name": "guizi0008",
+      "url": "/Model/bangonglou0102/CK-guizi0008-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "guizi0009", "img": "/Model/bangonglou0102/guizi0009.png", "name": "柜子9", "model": {
+      "name": "guizi0009",
+      "url": "/Model/bangonglou0102/CK-guizi0009-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "jianpanshubiao0001", "img": "/Model/bangonglou0102/jianpanshubiao0001.png", "name": "键盘鼠标1", "model": {
+      "name": "jianpanshubiao0001",
+      "url": "/Model/bangonglou0102/CK-jianpanshubiao0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "jiaohuanjixiang0001", "img": "/Model/bangonglou0102/jiaohuanjixiang0001.png", "name": "交换机箱1", "model": {
+      "name": "jiaohuanjixiang0001",
+      "url": "/Model/bangonglou0102/CK-jiaohuanjixiang0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "kongtiao0001", "img": "/Model/bangonglou0102/kongtiao0001.png", "name": "空调1", "model": {
+      "name": "kongtiao0001",
+      "url": "/Model/bangonglou0102/CK-kongtiao0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shafa0001", "img": "/Model/bangonglou0102/shafa0001.png", "name": "沙发1", "model": {
+      "name": "shafa0001",
+      "url": "/Model/bangonglou0102/CK-shafa0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shafa0002", "img": "/Model/bangonglou0102/shafa0002.png", "name": "沙发2", "model": {
+      "name": "shafa0002",
+      "url": "/Model/bangonglou0102/CK-shafa0002-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shafa0003", "img": "/Model/bangonglou0102/shafa0003.png", "name": "沙发3", "model": {
+      "name": "shafa0003",
+      "url": "/Model/bangonglou0102/CK-shafa0003-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shafa0004", "img": "/Model/bangonglou0102/shafa0004.png", "name": "沙发4", "model": {
+      "name": "shafa0004",
+      "url": "/Model/bangonglou0102/CK-shafa0004-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shujia0001",
+      "img": "/Model/bangonglou0102/shujia0001.png",
+      "name": "书架1",
+      "model": {
+        "name": "shujia0001",
+        "url": "/Model/bangonglou0102/CK-shujia0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "shujia0002", "img": "/Model/bangonglou0102/shujia0002.png", "name": "书架2", "model": {
+      "name": "shujia0002",
+      "url": "/Model/bangonglou0102/CK-shujia0002-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "shujia0003", "img": "/Model/bangonglou0102/shujia0003.png", "name": "书架3", "model": {
+      "name": "shujia0003",
+      "url": "/Model/bangonglou0102/CK-shujia0003-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "xianshiping0001", "img": "/Model/bangonglou0102/xianshiping0001.png", "name": "显示屏1", "model": {
+      "name": "xianshiping0001",
+      "url": "/Model/bangonglou0102/CK-xianshiping0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "xianshiping0002", "img": "/Model/bangonglou0102/xianshiping0002.png", "name": "显示屏2", "model": {
+      "name": "xianshiping0002",
+      "url": "/Model/bangonglou0102/CK-xianshiping0002-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "xianshiping0003", "img": "/Model/bangonglou0102/xianshiping0003.png", "name": "显示屏3", "model": {
+      "name": "xianshiping0003",
+      "url": "/Model/bangonglou0102/CK-xianshiping0003-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "yanjiangtai0001", "img": "/Model/bangonglou0102/yanjiangtai0001.png", "name": "演讲台1", "model": {
+      "name": "yanjiangtai0001",
+      "url": "/Model/bangonglou0102/CK-yanjiangtai0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "yaoshigui0001", "img": "/Model/bangonglou0102/yaoshigui0001.png", "name": "钥匙柜1", "model": {
+      "name": "yaoshigui0001",
+      "url": "/Model/bangonglou0102/CK-yaoshigui0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "yaoshiguimimasuo0001", "img": "/Model/bangonglou0102/yaoshiguimimasuo0001.png", "name": "钥匙柜密码锁1", "model": {
+      "name": "yaoshiguimimasuo0001",
+      "url": "/Model/bangonglou0102/CK-yaoshiguimimasuo0001-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0001",
+      "img": "/Model/bangonglou0102/zhuozi0001.png",
+      "name": "桌子1",
+      "model": {
+        "name": "zhuozi0001",
+        "url": "/Model/bangonglou0102/CK-zhuozi0001-CJBZ.FBX"
+      }
+    },
+    {
+      "id": "zhuozi0002", "img": "/Model/bangonglou0102/zhuozi0002.png", "name": "桌子2", "model": {
+      "name": "zhuozi0002",
+      "url": "/Model/bangonglou0102/CK-zhuozi0002-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0003", "img": "/Model/bangonglou0102/zhuozi0003.png", "name": "桌子3", "model": {
+      "name": "zhuozi0003",
+      "url": "/Model/bangonglou0102/CK-zhuozi0003-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0004", "img": "/Model/bangonglou0102/zhuozi0004.png", "name": "桌子4", "model": {
+      "name": "zhuozi0004",
+      "url": "/Model/bangonglou0102/CK-zhuozi0004-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0005", "img": "/Model/bangonglou0102/zhuozi0005.png", "name": "桌子5", "model": {
+      "name": "zhuozi0005",
+      "url": "/Model/bangonglou0102/CK-zhuozi0005-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0006", "img": "/Model/bangonglou0102/zhuozi0006.png", "name": "桌子6", "model": {
+      "name": "zhuozi0006",
+      "url": "/Model/bangonglou0102/CK-zhuozi0006-CJBZ.FBX"
+    }
+    },
+    {
+      "id": "zhuozi0007", "img": "/Model/bangonglou0102/zhuozi0007.png", "name": "桌子7", "model": {
+      "name": "zhuozi0007",
+      "url": "/Model/bangonglou0102/CK-zhuozi0007-CJBZ.FBX"
+    }
+    }
+  ],
+  "caifengji": [
+    {
+      "id": "cailanjishebei", "img": "Model/caifengji/cailanjishebei.png", "name": "彩兰机设备", "model": {
+      "name": "cailanjishebei",
+      "url": "/Model/caifengji/cailanjishebei.FBX",
+      "rotation": {
+        "x": 0,
+        "y": -1.57,
+        "z": 0
+      }
+    }
+    }
+  ],
+  "dianlanhuowu": [
+    {
+      "id": "dianlan0001", "img": "Model/dianlanhuowu/CK-dianlan0001-HW.png", "name": "电缆1", "model": {
+      "name": "dianlan0001",
+      "url": "/Model/dianlanhuowu/CK-dianlan0001-HW.FBX"
+    }
+    },
+    {
+      "id": "dianlan0002", "img": "Model/dianlanhuowu/CK-dianlan0002-HW.png", "name": "电缆2", "model": {
+      "name": "dianlan0002",
+      "url": "/Model/dianlanhuowu/CK-dianlan0002-HW.FBX"
+    }
+    },
+    {
+      "id": "dianlan0003", "img": "Model/dianlanhuowu/CK-dianlan0003-HW.png", "name": "电缆3", "model": {
+      "name": "dianlan0003",
+      "url": "/Model/dianlanhuowu/CK-dianlan0003-HW.FBX"
+    }
+    }
+  ],
+  "longmendiao": [
+    {
+      "id": "longmendiao0001", "img": "Model/longmendiao/CK-longmendiao0001-SB.png", "name": "龙门吊1", "model": {
+      "name": "longmendiao0001",
+      "url": "/Model/longmendiao/CK-longmendiao0001-SB.FBX",
+      "rotation": {
+        "x": 0,
+        "y": 0.15,
+        "z": 0
+      }
+    }
+    }
+  ],
+  "shexiangtou": [
+    {
+      "id": "shexiangtou0001", "img": "Model/shexiangtou/CK-shexiangtou0001-SB.png", "name": "摄像头1", "model": {
+      "name": "shexiangtou0001",
+      "url": "/Model/shexiangtou/CK-shexiangtou0001-SB.FBX"
+    }
+    },
+    {
+      "id": "shexiangtou0002", "img": "Model/shexiangtou/CK-shexiangtou0002-SB.png", "name": "摄像头2", "model": {
+      "name": "shexiangtou0002",
+      "url": "/Model/shexiangtou/CK-shexiangtou0002-SB.FBX"
+    }
+    },
+    {
+      "id": "shexiangtou0003", "img": "Model/shexiangtou/CK-shexiangtou0003-SB.png", "name": "摄像头3", "model": {
+      "name": "shexiangtou0003",
+      "url": "/Model/shexiangtou/CK-shexiangtou0003-SB.FBX"
+    }
+    }
+  ]
+}
